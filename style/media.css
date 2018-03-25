@@ -23,10 +23,23 @@
 		margin-right: 2%;
 	}
 	.page3foto1, .page3foto2, .page3foto3, .page3foto4, .page3foto5, .page3foto6, .page3foto7, .page3foto8{
-		width: 280px;
+		width: 350px;
 		height: 280px;
 	}
-	
+	.contentPage3foto1, .contentPage3foto2{
+		display: flex;
+		flex-wrap: wrap;
+}
+
+	.contentPage2Block1, .contentPage2Block2{
+		flex-wrap: wrap;
+	}
+	.block2page2, .block3page2, .block5page2, .block6page2, .block1page2, .block4page2{
+		margin-left: 0px;
+}
+	.block2page2, .block3page2, .block5page2, .block6page2{
+		margin-top: 45px;
+}
 }
 @media(max-width: 768px) {
 	.container {
@@ -90,6 +103,7 @@
 	.Page1{
 		padding-bottom: 50px;
 	}
+
 }
 
 
