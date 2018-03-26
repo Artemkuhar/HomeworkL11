@@ -12,6 +12,10 @@
 	.Page1 ul>li{
 		margin-right: 3%;
 	}
+	.contentPage2Block1, .contentPage2Block2{
+		padding-left: 7%;
+		padding-right: 7%;
+	}
 }
 @media(max-width: 992px) {
 	.container {
@@ -36,10 +40,19 @@
 	}
 	.block2page2, .block3page2, .block5page2, .block6page2, .block1page2, .block4page2{
 		margin-left: 0px;
+		padding-right: 50px;
+		padding-left: 50px;
 }
 	.block2page2, .block3page2, .block5page2, .block6page2{
 		margin-top: 45px;
+
 }
+	.page3foto1:hover:before, .page3foto2:hover:before, .page3foto3:hover:before, .page3foto4:hover:before, .page3foto5:hover:before, .page3foto6:hover:before, .page3foto7:hover:before, .page3foto8:hover:before{
+		padding-top: 125px;
+	}
+	.page3foto1:hover:after, .page3foto2:hover:after, .page3foto3:hover:after, .page3foto4:hover:after, .page3foto5:hover:after, .page3foto6:hover:after, .page3foto7:hover:after, .page3foto8:hover:after{
+		padding-top: 150px;
+	}
 }
 @media(max-width: 768px) {
 	.container {
@@ -63,7 +76,7 @@
 
 	}
 	.block2page2, .block3page2, .block5page2, .block6page2{
-		margin-left: 0px;
+		margin-left:0px;
 }
 	.block2page2, .block3page2, .block5page2, .block6page2{
 		margin-top: 45px;
@@ -89,11 +102,10 @@
 		align-items: center;
 
 	}
-	.block2page2, .block3page2, .block5page2, .block6page2{
-		margin-left: 0px;
-}
+
 	.block2page2, .block3page2, .block5page2, .block6page2{
 		margin-top: 45px;
+		margin-left: 0px;
 }
 
 	.contentPage3foto1, .contentPage3foto2{

@@ -159,58 +159,148 @@ section{
 	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto2{
 	background-image: url(../img/3.2.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto3{
 	background-image: url(../img/3.3.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 	
 }
 .page3foto4{
 	background-image: url(../img/3.4.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto5{
 	background-image: url(../img/3.5.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto6{
 	background-image: url(../img/3.6.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto7{
 	background-image: url(../img/3.7.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
 .page3foto8{
 	background-image: url(../img/3.8.png);
-		width: 480px;
+	width: 480px;
 	height: 350px;
 	margin: 1px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
 
 }
+.page3foto1:hover:before, .page3foto2:hover:before, .page3foto3:hover:before, .page3foto4:hover:before, .page3foto5:hover:before, .page3foto6:hover:before, .page3foto7:hover:before, .page3foto8:hover:before{
+	content: "PROJECT NAME";
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	z-index: -1;
+	text-decoration: uppercase;
+	font-family: Raleway;
+	font-size: 14px;
+ 	color: #ffffff;
+ 	padding-top: 156px;
+	
+}
+.page3foto1:hover:after, .page3foto2:hover:after, .page3foto3:hover:after, .page3foto4:hover:after, .page3foto5:hover:after, .page3foto6:hover:after, .page3foto7:hover:after, .page3foto8:hover:after{
+	content: "User Interface Design";
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	z-index: -1;
+	color: #f7dada;
+	padding-top: 180px;
+	
+}
+.page3foto1:hover{
+	background-image: url(../img/3.1.1.png);
+}
+.page3foto2:hover{
+	background-image: url(../img/3.2.2.png);
+}
+.page3foto3:hover{
+	background-image: url(../img/3.3.3.png);
+}
+.page3foto4:hover{
+	background-image: url(../img/3.4.4.png);
+}
+.page3foto5:hover{
+	background-image: url(../img/3.5.5.png);
+}
+.page3foto6:hover{
+	background-image: url(../img/3.6.6.png);
+}
+.page3foto7:hover{
+	background-image: url(../img/3.7.7.png);
+}
+.page3foto8:hover{
+	background-image: url(../img/3.8.8.png);
+}
+
 
 
 
